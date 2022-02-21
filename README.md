@@ -1,6 +1,7 @@
-# Welcom
-header {
- display: block; /* Для старых браузеров */
- height: 405px; /* Высота шапки */
- background: url(images/header-bg.png) no-repeat center bottom;
+body {
+
+background-color: #537759;
+
+background-image: url(images/annotaciya-muzykalnogo-rabochego-stola.jpg);
+
 }
