@@ -5,11 +5,7 @@
  <title>music base</title>
   h1 {
     font-family: Verdana, Arial, Helvetica, sans-serif; /* Рубленый шрифт заголовка */
-   } 
-   p {
-    font-family: 'Times New Roman', Times, serif; /* Шрифт с засечками */
-    font-style: italic; /* Курсивное начертание */
-   }
+  } 
   </style>
  </head>
  <body> 
