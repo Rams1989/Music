@@ -1,19 +1,16 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>font-style</title>
+  <title>background-image</title>
   <style>
-   .text {
-    text-align:  center;
+   body {
+    background-image: url(images/annotaciya-muzykalnogo-rabochego-stola.jpg); /* Путь к фоновому изображению */
    }
   </style>
-  <style>
-   h1 {
-    font-family: Verdana, Arial, Helvetica, sans-serif; /* Рубленый шрифт заголовка */
-   } 
-  </style>
- </head>
- <body> 
-  <h1>Моя любимая музыка</h1>
+   </head>
+ <body>
+  <p>...</p>
  </body>
 </html>
+
+
