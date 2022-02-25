@@ -1,13 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
-<title>Пример XHTML документа</title>
-</head>
-body {
-
-background-color: #537759;
-
-background-image: url(images/annotaciya-muzykalnogo-rabochego-stola.jpg);
-
-}
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <title>music base</title>
+  h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif; /* Рубленый шрифт заголовка */
+   } 
+   p {
+    font-family: 'Times New Roman', Times, serif; /* Шрифт с засечками */
+    font-style: italic; /* Курсивное начертание */
+   }
+  </style>
+ </head>
+ <body> 
+  <h1>Music base</h1>
+  <p>Все что я люблю.</p>
+ </body>
+</html>
