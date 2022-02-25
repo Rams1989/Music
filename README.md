@@ -10,6 +10,5 @@
  </head>
  <body> 
   <h1>Music base</h1>
-  <p>Все что я люблю.</p>
- </body>
+  </body>
 </html>
