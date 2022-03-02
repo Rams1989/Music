@@ -12,6 +12,7 @@ body {
 -webkit-background-size: cover;		
    }
    </style>
+<style>
 body {
   background: url(https://html5book.ru/wp-content/uploads/2015/07/background39.png);
 }
@@ -40,6 +41,7 @@ body {
   color: white;
   transform: translateY(-7px);
 }
+</style>
 </body>
 	
 </html>
