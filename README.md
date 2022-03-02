@@ -14,6 +14,5 @@ body {
    </style>
 <body>
   <p style="text-align: center"><button>Кнопка с текстом</button>
-  <button><img src="images/umbrella.gif" alt="Зонтик" 
  </body>
 </html>
