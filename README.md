@@ -40,7 +40,6 @@ body {
   color: white;
   transform: translateY(-7px);
 }
-	
-	</body>
+</body>
 	
 </html>
