@@ -12,7 +12,6 @@ body {
 -webkit-background-size: cover;		
    }
    </style>
-<body>
   <p style="text-align: center"><button>Кнопка с текстом</button>
  </body>
 </html>
