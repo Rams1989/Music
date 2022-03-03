@@ -11,14 +11,14 @@ body {
 -webkit-background-size: cover;		
    }
  </style>
-
-   <!-- подключаем стили и скрипты -->
+<!-- подключаем стили и скрипты -->
    <link href="css/styles.css" rel="stylesheet" type="text/css" />
    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
    <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
    <script type="text/javascript" src="js/main.js"></script>
 </head>
-   <div class="player">
+   <body>
+	<div class="player">
     <div class="pl"></div>
     <div class="title"></div>
     <div class="artist"></div>
