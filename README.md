@@ -12,5 +12,10 @@ body {
 -webkit-background-size: cover;		
    }
    </style>
+  <p class="positioned"> ... </p>
+.positioned {
+  position: static;
+  top: 800px;
+}
   <p style="text-align: center"><button>Кнопка с текстом</button>
  
