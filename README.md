@@ -11,9 +11,14 @@ body {
 -o-background-size: cover; 
 -webkit-background-size: cover;		
    }
-   </style>
-  <p class="positioned"> .positioned {<button>Кнопка с текстом</button>} </p>
-  position: relative; top: 500px;
+  <input type="image" src="img/good.png" name="button" value="good" class="good">
+good {
+position: absolute;
+top: 537px;
+left: 540px;
+}
+</style>
+ 
 	  
 
  
