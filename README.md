@@ -11,8 +11,8 @@ body {
 -o-background-size: cover; 
 -webkit-background-size: cover;		
    }
-  <input type="image" src="img/good.png" name="button" value="good" class="good">
-good {
+  <body>
+  <p style="text-align: center"><button>Кнопка с текстом</button> /p>
 position: absolute;
 top: 537px;
 left: 540px;
