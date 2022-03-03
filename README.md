@@ -15,6 +15,7 @@ body {
   <p class="positioned"> .positioned {
   position: relative;
 	  top: 500px;
+	  <button>Кнопка с текстом</button>
 } </p>
- <p style="text-align: center"><button>Кнопка с текстом</button>
+ 
  
