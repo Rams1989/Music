@@ -11,14 +11,12 @@ body {
 -o-background-size: cover; 
 -webkit-background-size: cover;		
    }
-  <body>
-  <p style="text-align: center"><button>Кнопка с текстом</button> /p>
-position: absolute;
-top: 537px;
-left: 540px;
-}
-</style>
- 
+ <script src=»http://kostyakhmelev.ru/audioplayer/audio-player.js» language=»JavaScript»></script> <object data=»http://kostyakhmelev.ru/audioplayer/player.swf» type=»application/x-shockwave-flash»><param name=»movie» value=»http://kostyakhmelev.ru/audioplayer/player.swf» /><param name=»FlashVars» value=»playerID=1&amp;soundFile=http://kostyakhmelev.ru/audioplayer/Tiesto feat. Disco Fries — iTrance.mp3″ /><param name=»quality» value=»high» /><param name=»menu» value=»false» /><param name=»wmode» value=»transparent» /></object>
+
+<script src=»http://kostyakhmelev.ru/audioplayer/audio-player.js» language=»JavaScript»></script>
+
+<object data=»http://kostyakhmelev.ru/audioplayer/player.swf» type=»application/x-shockwave-flash»><param name=»movie» value=»http://kostyakhmelev.ru/audioplayer/player.swf» /><param name=»FlashVars» value=»playerID=1&amp;soundFile=http://kostyakhmelev.ru/audioplayer/Tiesto feat. Disco Fries — iTrance.mp3″ /><param name=»quality» value=»high» /><param name=»menu» value=»false» /><param name=»wmode» value=»transparent» /></object>
+  
 	  
 
  
