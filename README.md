@@ -26,7 +26,8 @@
     <li><a href="">Элемент списка</a></li>
     <li><a href="">Элемент списка</a></li>
 </ul>
-.metro {
+<style>
+	.metro {
   list-style: none;
   padding: 0;
   margin: 30px 0 0 50px;
@@ -82,6 +83,7 @@
   border-radius: 50%;
   margin-right: .5em;
 }
+</style>
 </body>  
 	  
 
