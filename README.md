@@ -40,13 +40,12 @@
   </style>	
   <!-- Описание ссылок в меню и сами ссылки. -->
 <ul class="navigation"> 
-   <li><a href="https://www.internet-technologies.ru/news" target="_blank">Новости</a></li>
-   <li><a href="https://www.internet-technologies.ru/articles" target="_blank">Статьи</a></li>
-   <li><a href="https://www.internet-technologies.ru/templates/" target="_blank">Шаблоны</a></li>
-   <li><a href="https://www.internet-technologies.ru/books" target="_blank">Книги</a></li>
-   <li><a href="https://www.internet-technologies.ru/scripts" target="_blank">Скрипты</a></li>
-   <li><a href="https://www.internet-technologies.ru/lessons" target="_blank">Видео</a></li>
-   <li><a href="http://talk.internet-technologies.ru/" target="_blank">Форум</a></li>
+   <li><a href="https://www.internet-technologies.ru/news" target="_blank">Музыка</a></li>
+   <li><a href="https://www.internet-technologies.ru/articles" target="_blank">Видео</a></li>
+   <li><a href="https://www.internet-technologies.ru/templates/" target="_blank">Обои</a></li>
+   <li><a href="https://www.internet-technologies.ru/books" target="_blank">Стихи</a></li>
+   <li><a href="https://www.internet-technologies.ru/scripts" target="_blank">Анекдоты</a></li>
+   <li><a href="http://talk.internet-technologies.ru/" target="_blank">О сайте</a></li>
 </ul>
 </body>  
 	  
