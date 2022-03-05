@@ -15,53 +15,12 @@
     background-size: cover;
  }
   </style>		
-	<script type='text/javascript' src='https://code.jquery.com/jquery-1.7.js'></script>
-<script>
-$(document).ready(function () {
-var audio;
-var playlist;
-var tracks;
-var current;
-
-init();
-function init() {
-    current = 0;
-    audio = $('#audio');
-    playlist = $('#playlist');
-    tracks = playlist.find('li a');
-    len = tracks.length - 1;
-    audio[0].volume = .80;
-    playlist.find('a').click(function (e) {
-        e.preventDefault();
-        link = $(this);
-        current = link.parent().index();
-        run(link, audio[0]);});
-    audio[0].addEventListener('ended', function (e) {
-        current++;
-        if(current > len){
-            current = 0;
-            link = playlist.find('a')[0];
-        } else {
-            link = playlist.find('a')[current];
-        }
-        run($(link), audio[0]);
-    });
-}
-function run(link, player) {
-    player.src = link.attr('href');
-    par = link.parent();
-    par.addClass('active').siblings().removeClass('active');
-    audio[0].load();
-    audio[0].play();
-    }
-})
-</script>
-<audio controls="" id="audio" type="audio/mpeg">
-    <source type="audio/mp3" src="ПУТЬ К ФАЙЛУ-1">
+	<audio controls="" id="audio" type="audio/mpeg">
+    <source type="audio/mp3" src="gayazov-brother_-_malinovaya-lada.mp3">
 </audio>
 <ol id="playlist">
-    <li class="active"><a href="ПУТЬ К ФАЙЛУ-1">https://ru-music.com/song/58081-gayazov-brother-%D0%BC%D0%B0%D0%BB%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BB%D0%B0%D0%B4%D0%B0</a></li>
-    <li><a href="ПУТЬ К ФАЙЛУ-2">https://ru-music.com/song/3803-gayazov-brother-%D1%83%D0%B2%D0%B5%D0%B7%D0%B8%D1%82%D0%B5-%D0%BC%D0%B5%D0%BD%D1%8F-%D0%BD%D0%B0-%D0%B4%D0%B8%D0%BF-%D1%85%D0%B0%D1%83%D1%81</a></li>
+    <li class="active"><a href="ПУТЬ К ФАЙЛУ-1">gayazov-brother_-_malinovaya-lada.mp3</a></li>
+    <li><a href="ПУТЬ К ФАЙЛУ-2">gayazov-brother_-_malinovaya-lada.mp3</a></li>
     <li><a href="ПУТЬ К ФАЙЛУ-3">gayazov-brother_-_malinovaya-lada.mp3</a></li>
 </ol>
 </body>
