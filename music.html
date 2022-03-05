@@ -22,6 +22,7 @@
     <div class="change-audio" data-audio="GreekDance.mp3">Greek Dance</div>
     <div class="change-audio" data-audio="VanishingHorizon.mp3">Vanishing Horizon</div>
 </div>
+	<style>
 	.player-container {
     max-width: 500px;
     margin: 20px auto;
@@ -44,7 +45,8 @@
     color: #FFF;
     border: 1px solid #00b3ff
 }
-	const player = new Plyr('#player', {
+	</style>
+		const player = new Plyr('#player', {
     invertTime: false,
 });
 player.source = {
@@ -95,3 +97,5 @@ $(function() {
         }
     });    
 });
+	</body>
+</html>
