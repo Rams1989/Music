@@ -40,7 +40,7 @@
   </style>	
   <!-- Описание ссылок в меню и сами ссылки. -->
 <ul class="navigation"> 
-   <li><a href="https://github.com/Rams1989/my_vibe/blob/main/%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0" target="_blank">Музыка</a></li>
+   <li><a href="music.html" target="_blank">Музыка</a></li>
    <li><a href="https://www.internet-technologies.ru/articles" target="_blank">Видео</a></li>
    <li><a href="https://www.internet-technologies.ru/templates/" target="_blank">Обои</a></li>
    <li><a href="https://www.internet-technologies.ru/books" target="_blank">Стихи</a></li>
