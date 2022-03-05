@@ -18,5 +18,55 @@
 <audio controls="" type="audio/mpeg">
   <source type="audio/mp3" src="ПУТЬ К ФАЙЛУ MP3">
 </audio>	
+	<script type='text/javascript' src='https://code.jquery.com/jquery-1.7.js'></script>
+<script>
+$(document).ready(function () {
+var audio;
+var playlist;
+var tracks;
+var current;
+
+init();
+function init() {
+    current = 0;
+    audio = $('#audio');
+    playlist = $('#playlist');
+    tracks = playlist.find('li a');
+    len = tracks.length - 1;
+    audio[0].volume = .80;
+    playlist.find('a').click(function (e) {
+        e.preventDefault();
+        link = $(this);
+        current = link.parent().index();
+        run(link, audio[0]);});
+    audio[0].addEventListener('ended', function (e) {
+        current++;
+        if(current > len){
+            current = 0;
+            link = playlist.find('a')[0];
+        } else {
+            link = playlist.find('a')[current];
+        }
+        run($(link), audio[0]);
+    });
+}
+function run(link, player) {
+    player.src = link.attr('href');
+    par = link.parent();
+    par.addClass('active').siblings().removeClass('active');
+    audio[0].load();
+    audio[0].play();
+    }
+})
+</script>
+	<audio controls="" id="audio" type="audio/mpeg">
+    <source type="audio/mp3" src="ПУТЬ К ФАЙЛУ-1">
+</audio>
+<ol id="playlist">
+    <li class="active"><a href="ПУТЬ К ФАЙЛУ-1">Первое аудио</a></li>
+    <li><a href="ПУТЬ К ФАЙЛУ-2">Второе аудио</a></li>
+    <li><a href="ПУТЬ К ФАЙЛУ-3">Третье аудио</a></li>
+</ol>
+
 	</body>
 </html>
