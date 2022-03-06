@@ -40,7 +40,7 @@
   </style>	
   <!-- Описание ссылок в меню и сами ссылки. -->
 <ul class="navigation"> 
-   <li><a href="index.html" target="_blank">Музыка</a></li>
+   <li><a href="music.html" target="_blank">Музыка</a></li>
    <li><a href="https://www.internet-technologies.ru/articles" target="_blank">Видео</a></li>
    <li><a href="https://www.internet-technologies.ru/templates/" target="_blank">Обои</a></li>
    <li><a href="https://www.internet-technologies.ru/books" target="_blank">Стихи</a></li>
