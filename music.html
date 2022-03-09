@@ -16,33 +16,96 @@
     background-size: cover;
  }
   </style>		
-<link rel="stylesheet" href="https://bootstraptema.ru/plugins/2015/bootstrap3/bootstrap.min.css" />
-<link rel="stylesheet" href="https://bootstraptema.ru/plugins/2015/audio-touch/audio-touch.css" />
-<script type="text/javascript" src="https://bootstraptema.ru/plugins/jquery/jquery-1.11.3.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://bootstraptema.ru/plugins/jquery/jquery-1.11.3.min.js"></script>
+<link rel="stylesheet" href="https://bootstraptema.ru/snippets/audio/2016/circle-player/circle-player.css" />
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<div class="container"><div class="row">
-
-<div class="col-lg-6 col-lg-offset-3">
-
- <audio preload="auto" controls>
- <source src="https://bootstraptema.ru/assets/music/cuckoo.mp3" />
- <source src="https://bootstraptema.ru/assets/music/cuckoo.mp3" />
-</audio>
-<br><br><br><br><br><br><br><br><br>
-<a href="http://tatyanayurskaya.my1.ru/load/" target="_blank" class="btn btn-default" >Исполнитель: Татяна Юрская</a>
+<div class="container">
+ <div class="row">
+ <div class="col-xs-12 col-sm-offset-4 col-sm-4 well">
+ <div class="progress-radial progress">
+ <div class="overlay">
+ <img class="img-responsive img-circle" src="https://bootstraptema.ru/snippets/audio/2016/circle-player/robbenson.jpg" alt="">
+ <div class="controls">
+ <span class="glyphicon glyphicon-volume-up" id="mute" data-toggle="audioplayer" data-icon="muted" data-active="false"></span>
+ <span class="glyphicon glyphicon-volume-off hide" id="muted" data-toggle="audioplayer" data-icon="mute" data-active="false"></span>
+ <span class="glyphicon glyphicon-stop active" id="stop" data-toggle="audioplayer" data-icon="play"></span>
+ <span class="glyphicon glyphicon-play hide" id="play" data-toggle="audioplayer" data-icon="stop"></span>
+ <span class="glyphicon glyphicon-pause" id="pause" data-toggle="audioplayer" data-icon="pause"></span>
+ </div>
+ <div class="clearfix"></div>
+ </div>
+ </div> 
+ </div>
+ </div>
 </div>
 
-</div></div>
+<script>
+$(function () {
+ var play = $('#play'),
+ pause = $('#pause'),
+ stop = $('#stop'),
+ mute = $('#mute'),
+ muted = $('#muted'),
+ song = new Audio('https://bootstraptema.ru/snippets/audio/2016/circle-player/robbenson.mp3'),
+ duration = song.duration;
 
-<script src="https://bootstraptema.ru/plugins/2015/audio-touch/audio-touch.js"></script>
+ song.type= 'audio/mpeg';
+ song.src= 'https://bootstraptema.ru/snippets/audio/2016/circle-player/robbenson.mp3';
 
- <script>
- $( function()
- {
- $( 'audio' ).audioPlayer();
+ stop.on('click', function(e) {
+ e.preventDefault();
+ $(this).addClass('hide');
+ $('#play').removeClass('hide').trigger('click'); 
+ })
+
+ play.on('click', function(e) {
+ e.preventDefault();
+ if (!$(this).hasClass('active')){
+ song.play();
+ $('.active').removeClass('active');
+ $(this).addClass('active');
+ }else{
+ song.pause();
+ $('.active').removeClass('active');
+ var curtime = song.currentTime / song.duration * 100;
+ $('.progress-radial').removeClass('progress-'+parseInt(curtime));
+ song.currentTime = 0; 
+ $(this).addClass('hide');
+ stop.removeClass('hide').addClass('active');
+ }
  });
- </script>
+
+ pause.on('click', function(e) {
+ e.preventDefault();
+ song.pause();
+ $('.active').removeClass('active');
+ $(this).addClass('active');
+ });
+
+ mute.on('click', function(e) {
+ e.preventDefault();
+ song.volume = 0;
+ $(this).addClass('hide');
+ $('#muted').removeClass('hide');
+ });
+
+ muted.on('click', function(e) {
+ e.preventDefault();
+ song.volume = 1;
+ $(this).addClass('hide');
+ $('#mute').removeClass('hide');
+ });
+
+ song.addEventListener('timeupdate', function (){
+ var curtime = song.currentTime / song.duration * 100;
+ $('.progress-radial').addClass('progress-'+parseInt(curtime));
+ $('.progress-radial').removeClass('progress-'+parseInt(curtime-1));
+ }); 
+});
+</script>
 
 </body>
 </html>
