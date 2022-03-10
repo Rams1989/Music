@@ -47,7 +47,7 @@
    <li><a href="https://www.internet-technologies.ru/scripts" target="_blank">Анекдоты</a></li>
    <li><a href="http://talk.internet-technologies.ru/" target="_blank">О сайте</a></li>
 </ul>
-google-site-verification: googlee66e3998d3c6c1ab.html
+ 
 </body>  
 	  
 
