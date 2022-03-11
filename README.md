@@ -42,10 +42,10 @@
 <ul class="navigation"> 
    <li><a href="music.html" target="_blank">Музыка</a></li>
    <li><a href="video.html" target="_blank">Видео</a></li>
-   <li><a href="https://www.internet-technologies.ru/templates/" target="_blank">Обои</a></li>
-   <li><a href="https://www.internet-technologies.ru/books" target="_blank">Стихи</a></li>
-   <li><a href="https://www.internet-technologies.ru/scripts" target="_blank">Анекдоты</a></li>
-   <li><a href="http://talk.internet-technologies.ru/" target="_blank">О сайте</a></li>
+   <li><a href="" target="_blank">Обои</a></li>
+   <li><a href="" target="_blank">Стихи</a></li>
+   <li><a href="" target="_blank">Анекдоты</a></li>
+   <li><a href="" target="_blank">О сайте</a></li>
 </ul>
  
 </body>  
