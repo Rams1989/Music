@@ -44,7 +44,7 @@
    <li><a href="video.html" target="_blank">Видео</a></li>
    <li><a href="" target="_blank">Обои</a></li>
    <li><a href="" target="_blank">Стихи</a></li>
-   <li><a href="" target="_blank">Анекдоты</a></li>
+   <li><a href="jokes.html" target="_blank">Анекдоты</a></li>
    <li><a href="" target="_blank">О сайте</a></li>
 </ul>
  
