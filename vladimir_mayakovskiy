@@ -1,0 +1,39 @@
+<head>
+  <meta charset="utf-8">
+	<title>Сергей Есенин</title>
+ <style>
+   p {
+    border: 1px solid Wheat;    /* рамка текста */
+    padding: 10px;
+   font-size: 13pt; /* Размер шрифта в пунктах */
+}
+ </style>
+<style>
+.custom-colored-h2
+{
+    color: #ffffff;
+}
+</style>
+</head>
+  <body>
+    <form>
+      <button type="submit" formaction="https://rams1989.github.io/my_vibe/"">На главную</button>
+    </form>
+	  <style>
+   body {
+    background: #000000 url(https://github.com/Rams1989/music_base/blob/main/devushka_shliapa_chb_132197_1920x1080.jpg?raw=true); /* Цвет фона и путь к файлу */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }
+  </style>		
+<center>
+
+
+</center>
+</body>
+</html>
